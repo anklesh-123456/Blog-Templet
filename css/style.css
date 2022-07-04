@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    font-family: var(--font1);
+    height: 74px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 80px;
+    font-size: 20px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 15px;
+    font-family: var(--font2);
+}
+.nav-left ul li a{
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul li a:hover{
+   color: rgb(255, 118, 6);
+  }
+.nav-left span{
+    font-size: 38px;
+    color: #ff8d00;
+}
+
+
+.content{
+    display: flex;
+    height: 395px;
+    /* background-color: rgb(95, 81, 81); */
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    /* background-image: url(../img/ad.svg.jpg); */
+    background-color: rgb(233 30 100 / 21%);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.6;
+
+}
+.content-left{
+font-family: var(--font2);
+/* width: 50%; */
+display: flex;
+/* align-items: center; */
+justify-content: center;
+flex-direction: column;
+padding: 0 50px;
+z-index: 1;
+}
+.content-left h1{
+    margin-bottom: 15px;
+}
+.content-right{
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.content-right img{
+    height: 250px;
+    border: 2px solid;
+    color: black;
+    border-radius: 174px;
+}
+.home-articals{
+    /* height: 455px; */
+    /* background-color: red; */
+    padding-top: 15px;
+    background-color: rgb(233 30 100 / 21%);
+}
+
+.home-artical{
+display: flex;
+padding: 18px;
+
+}
+.home-articals{
+    padding: 10px 10px;
+}
+.home-artical img{
+    width: 260px;
+}
+.home-artical-content{
+    align-self: center;
+    padding: 20px;
+}
+.home-artical-content a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}

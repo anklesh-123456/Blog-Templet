@@ -1,0 +1,26 @@
+.contact-content{
+   
+    /* display: flex; */
+    height: 395px;
+    height:50vw;
+    /* background-color: rgb(95, 81, 81); */
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-content::after{
+    content: "";
+    /* background-image: url(../img/ad.svg.jpg); */
+    background-color: rgb(233 30 100 / 21%);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+.contact-content h2{
+    padding: 20px 0;
+}
+

@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Lato:ital@1&family=Open+Sans&family=Roboto+Serif:wght@400;600&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Lato:ital@1&family=Open+Sans&family=Roboto+Serif&family=Roboto:wght@300;400&display=swap');
+:root{
+    --main-bg-color:rgb(255, 115, 0);
+    --font1: 'Roboto Serif', sans-serif;
+    --font2:'Open Sans', sans-serif;
+}
+.font1{
+font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+max-width: 80vw;
+}
+
+.max-width-2{
+    max-width:60vw;
+    }
+
+    .m-auto{
+        margin: auto;
+        }
+        .my-2{
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+        .btn{
+            padding: 5px 10px;
+            font-size: 14px;
+            border-radius: 10px;
+            font-family: var(--font1);
+            border: 2px solid black;
+            transition: all 0.3s ease-in-out;
+        }
+        .btn:hover{
+background-color: var(--main-bg-color);
+color: white;
+ }
+.form-input{
+padding: 4px 10px;
+font-size: 16px;
+border-radius: 13px;
+margin: 0 17px;
+font-family: var(--font1);
+cursor: pointer;
+        }
+        .form-box input,textarea{
+width: 50vw;
+padding: 0 6px;
+margin: 3px 0;
+font-size: 18px;
+font-family: var(--font2);
+border: 2px solid rgb(255, 167, 3);
+border-radius: 5px;
+        }
